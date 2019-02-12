@@ -1,1 +1,6 @@
 language: cpp
+compiler:
+ - gcc
+ script:
+ - cd TravisCI
+ - g++ TrvisCI.app -o build.exe
